@@ -1,0 +1,388 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 782514300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Techfios Login Page",
+            "match": {
+              "location": "LoginStep.user_is_on_Techfios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5974137000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddContactStep.Before_run()"
+            }
+          },
+          {
+            "result": {
+              "duration": 23070500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.Before_run()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "User should be able to login with valid credentials and Add A new Contact",
+        "description": "",
+        "id": "validate-addcontact-functionality;user-should-be-able-to-login-with-valid-credentials-and-add-a-new-contact;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3084442700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65002900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1286677400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on the log in Button",
+            "match": {
+              "location": "LoginStep.user_clicks_on_the_log_in_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10832100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User will be able to see DashBoard page",
+            "match": {
+              "location": "LoginStep.user_will_be_able_to_see_DashBoard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5054143300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to click on Customers",
+            "match": {
+              "location": "AddContactStep.user_should_be_able_to_click_on_Customers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5609066900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to click on Add Customer",
+            "match": {
+              "location": "AddContactStep.user_should_be_able_to_click_on_Add_Customer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5069764700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters fullname as \"Sudip\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sudip",
+                  "offset": 25
+                }
+              ],
+              "location": "AddContactStep.user_enters_fullname_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114272400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#When User enters company as"
+              }
+            ],
+            "line": 17,
+            "name": "User enters company as \"Techfios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Techfios",
+                  "offset": 24
+                }
+              ],
+              "location": "AddContactStep.user_enters_company_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80194000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters email as \"sudip123@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sudip123@techfios.com",
+                  "offset": 22
+                }
+              ],
+              "location": "AddContactStep.user_enters_email_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69989700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters phone as \"123456889\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456889",
+                  "offset": 22
+                }
+              ],
+              "location": "AddContactStep.user_enters_phone_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66157500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters address as \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 24
+                }
+              ],
+              "location": "AddContactStep.user_enters_address_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70303300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters city as \"Irving\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Irving",
+                  "offset": 21
+                }
+              ],
+              "location": "AddContactStep.user_enters_city_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75636600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters state as \"TX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TX",
+                  "offset": 22
+                }
+              ],
+              "location": "AddContactStep.user_enters_state_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72583300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters zip as \"75063\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "75063",
+                  "offset": 20
+                }
+              ],
+              "location": "AddContactStep.user_enters_zip_as(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59997900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 24,
+                "value": "#When User enters country as"
+              }
+            ],
+            "line": 25,
+            "name": "User enters country as \"United States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United States",
+                  "offset": 24
+                }
+              ],
+              "location": "AddContactStep.user_enters_country_as(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5081093700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 26,
+                "value": "#When User enters tag as \"\u003ctag\u003e\""
+              }
+            ],
+            "line": 27,
+            "name": "User clicks on the Save Button",
+            "match": {
+              "location": "AddContactStep.user_clicks_on_the_Save_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@End2End"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Addcontact functionality",
+    "description": "",
+    "id": "validate-addcontact-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/sudip/eclipse-workspace/zzz/src/test/java/features/AddContact.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@End2End"
+      }
+    ]
+  }
+]

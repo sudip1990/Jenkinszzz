@@ -1,0 +1,25 @@
+@End2End
+Feature: Validate login functionality
+
+Background:
+Given User is on Techfios Login Page
+
+@Scenario1 
+Scenario: User should be able to login with valid credentials
+When User enters username as "demo@techfios.com"
+When User enters password as "abc123"
+And User clicks on the log in Button
+Then User will be able to see DashBoard page
+
+
+#@Scenario2
+#Scenario Outline:User should be able to login with valid credentials (Keeping Variable and Placeholders separated )
+#When User enters the "<userName>" and "<password>"
+#And User clicks on the log in button
+#Then User should be able to see the Dashboard Page
+#
+#Examples:
+#|userName|password| 
+#|demo@techfios.com|abc123|
+
+
